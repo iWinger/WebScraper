@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='signup.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navbar content -->
+        <ul class="navbar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link" href="signup">Sign-Up</a>
+        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Login</a>
+            </li>
+
+
+        </ul>
+    </nav>
+</head>
+<div>
+
+</div>
+<body>
+
+
+
+<form action="" method="post">
+    <center>
+        <br>
+        <h1>Sign-Up</h1><br>
+    <p>First name:</p>
+    <input type="text" name="firstname">
+        <br></br>
+
+        <p>Last name:</p>
+    <input type="text" name="lastname">
+        <br></br>
+        <p>Username:</p>
+    <input type="text" name="username">
+        <br></br>
+
+        <p>Password:</p>
+    <input type="text" name="password">
+        <br></br>
+        <p>Email:</p>
+    <input type="email" name="email">
+        <br></br>
+
+        <input type="submit" name="submit" value="Enter">
+
+    </center>
+</form>
+
+
+</body>
+</html>

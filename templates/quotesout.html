@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Quotes
+  </title>
+  <link href="{{ url_for('static', filename='signup.css') }}" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
+  <style type="text/css">
+   .list{
+   width: 900px;
+   margin: 10px
+}
+ol {
+   color: #ccc;
+   list-style-type: none;
+}
+ol li {
+   position: relative;
+   font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+   margin-bottom: 20px;
+   border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #333333;
+}
+li p {
+   font: 20px/1.5 Helvetica, sans-serif;
+   padding-left: 40px;
+   color: #555;
+}
+span {
+   position: absolute;
+}
+button {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+}
+.prev{
+    float: left;
+}
+.next{
+    float: right;
+    margin-right: 980px
+}
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <!-- Navbar content -->
+   <ul class="navbar-nav">
+    <li class="nav-item">
+     <a class="nav-link" href="/home">
+      Home
+     </a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="/">
+      Login
+     </a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="/quotes/1">
+      Quotes
+     </a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="/prices/1">
+      Price
+     </a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="logout">
+      Logout
+     </a>
+    </li>
+   </ul>
+  </nav>
+ </head>
+ <body>
+  This is the quotes page.
+  <div class="list">
+   <ol>
+    <li>
+     <span>
+      1.
+     </span>
+     <p>
+      “I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.”
+     </p>
+    </li>
+    <li>
+     <span>
+      2.
+     </span>
+     <p>
+      “For every minute you are angry you lose sixty seconds of happiness.”
+     </p>
+    </li>
+    <li>
+     <span>
+      3.
+     </span>
+     <p>
+      “If you judge people, you have no time to love them.”
+     </p>
+    </li>
+    <li>
+     <span>
+      4.
+     </span>
+     <p>
+      “Anyone who thinks sitting in church can make you a Christian must also think that sitting in a garage can make you a car.”
+     </p>
+    </li>
+    <li>
+     <span>
+      5.
+     </span>
+     <p>
+      “Beauty is in the eye of the beholder and it may be necessary from time to time to give a stupid or misinformed beholder a black eye.”
+     </p>
+    </li>
+    <li>
+     <span>
+      6.
+     </span>
+     <p>
+      “Today you are You, that is truer than true. There is no one alive who is Youer than You.”
+     </p>
+    </li>
+    <li>
+     <span>
+      7.
+     </span>
+     <p>
+      “If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales.”
+     </p>
+    </li>
+    <li>
+     <span>
+      8.
+     </span>
+     <p>
+      “It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all - in which case, you fail by default.”
+     </p>
+    </li>
+    <li>
+     <span>
+      9.
+     </span>
+     <p>
+      “Logic will get you from A to Z; imagination will get you everywhere.”
+     </p>
+    </li>
+    <li>
+     <span>
+      10.
+     </span>
+     <p>
+      “One good thing about music, when it hits you, you feel no pain.”
+     </p>
+    </li>
+   </ol>
+  </div>
+  <button class="prev" onclick="prev()">
+   Prev
+  </button>
+  <button class="next" onclick="next()">
+   Next
+  </button>
+  <script>
+   function next(){
+    h = window.location.href
+    a = h.split('/')
+    if (a[4]==undefined)
+        {window.location.href=h+"/2"}
+     else
+     {
+     var x = Number(a[4])
+     if(x==10){
+     window.location.href=h.substring(0,28)+"/10"
+     }
+     else{
+     x = x+1
+     <!--alert(h.substring(0,28))-->
+     window.location.href=h.substring(0,28)+"/"+x.toString()}
+     }
+    }
+
+    function prev(){
+    h = window.location.href
+    a = h.split('/')
+    if (a[4]==undefined)
+        {window.location.href=h}
+     else
+     {
+     if(a[4]=='1'){
+     window.location.href=h.substring(0,28)+"/1"
+     }
+     else{
+     var x = Number(a[4])
+     x = x-1
+     <!--alert(h.substring(0,28))-->
+     window.location.href=h.substring(0,28)+"/"+x.toString()}
+     }
+    }
+  </script>
+ </body>
+</html>
