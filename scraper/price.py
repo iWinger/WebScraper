@@ -37,12 +37,19 @@ def content(url):
         # tag = quote[i].find('span',attrs={'class':'text'}).get_text()
         image.append(img)
         print(img)
-    return item_name, image
+    for i in range(len(items)):
+        dic = {}
+        if items[i].find('span',attrs={'class':'a-price'}) is None:
+            continue
+        p = items[i].find('span', attrs={'class':'a-offscreen'}).get_text()
+        # tag = quote[i].find('span',attrs={'class':'text'}).get_text()
+        price.append(p)
+    return item_name, image, price
 
 def update(url, htmlDoc):
     # htmlDoc = open('./templates/quotes.html',"r+")
     soup = BeautifulSoup(htmlDoc)
-    text, image  = content(url)
+    text, image, price  = content(url)
     a = soup.find_all('p')
     for i in range(len(a)):
         a[i].string = a[i].text.replace(a[i].text, text[i])
@@ -52,6 +59,9 @@ def update(url, htmlDoc):
     img = soup.find_all('img')
     for i in range(len(img)):
         img[i]['src'] = image[i]
+    pri = soup.find_all('span', attrs={'class':'price'})
+    for i in range(len(pri)):
+        pri[i].string = pri[i].text.replace(pri[i].text, price[i])
 	
     print(soup)
     html = soup.prettify('utf-8')
