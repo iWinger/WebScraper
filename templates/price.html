@@ -45,11 +45,14 @@ button {
     float: right;
     margin-right: 980px
 }
-
 img{
 float = left;
 width: 100px;
 height: 100px%;
+}
+.price{
+
+margin-left: 150px;
 }
     </style>
 
@@ -59,18 +62,18 @@ height: 100px%;
         <li class="nav-item">
             <a class="nav-link" href="/home">Home</a>
         </li>
-       
+
             <li class="nav-item">
                 <a class="nav-link" href="/">Login</a>
             </li>
                <li class="nav-item">
                 <a class="nav-link" href="/quotes/1">Quotes</a>
             </li>
-				
+
 				<li class="nav-item">
             <a class="nav-link" href="/prices/1">Price</a>
         </li>
-				
+
               </li>
                <li class="nav-item">
                 <a class="nav-link" href="logout">Logout</a>
@@ -81,60 +84,63 @@ height: 100px%;
 </head>
 <body>
 This is the quotes page.
-
+<form action="" method="post">
+     <input type="text" name="search">
+    <input type="submit" name="submit" value="Enter">
+</form>
 <div class="list">
    <ul>
      <li>
-         <span>  1.</span>
+          <span class="price"></span>
 		 <img src=""> </img>
 	   <p>Lorem ipsum dolor sit amet...</p>
      </li>
 
     <li>
-    <span>  2.</span>
+     <span class="price"></span>>
 	<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
 
     <li>
-        <span>  3.</span>
+        <span class="price"></span>
 		<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
 
     <li>
-        <span>  4.</span>
+        <span class="price"></span>
 		<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
 
    <li>
-        <span>  5.</span>
+        <span class="price"></span>
 		<img src=""> </img>
    <p>Lorem ipsum dolor sit amet...</p>
  </li>
        <li>
-        <span>  6.</span>
+        <span class="price"></span>
 		<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
        <li>
-        <span>  7.</span>
+        <span class="price"></span>
 		<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
        <li>
-        <span>  8.</span>
+        <span class="price"></span>
 		<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
        <li>
-           <span>  9.</span>
+        <span class="price"></span>
 		   <img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
        <li>
-        <span>  10.</span>
+        <span class="price"></span>
 		<img src=""> </img>
        <p>Lorem ipsum dolor sit amet...</p>
      </li>
@@ -162,7 +168,6 @@ This is the quotes page.
      window.location.href=h.substring(0,28)+"/"+x.toString()}
      }
     }
-
     function prev(){
     h = window.location.href
     a = h.split('/')
@@ -180,8 +185,6 @@ This is the quotes page.
      window.location.href=h.substring(0,28)+"/"+x.toString()}
      }
     }
-
-
 </script>
 </body>
 </html>
