@@ -13,6 +13,7 @@ client = MongoClient("mongodb://ames4life:cs314@webscrapy-shard-00-00-gre6l.mong
 db = client['mydb']
 collection = db['accounts']
 
+defsearch = 'computer'
 #Template store the html files
 
 #This is the login page.
@@ -77,9 +78,17 @@ def quotes(id):
 @app.route('/prices/<int:id>', methods=['POST','GET'])
 def prices(id):
     # p  = q.get_page('http://quotes.toscrape.com/')
+    global defsearch
+    search = defsearch
+    if request.method == 'POST':
+        if (request.form['submit'] == 'Enter'):
+            search = request.form['search']
+            defsearch = search
+
+    web = 'https://www.amazon.com/s?k='+str(search)+'/'
     htmlDoc = open('./Lib/site-packages/templates/price.html', 'r+')
 
-    t = price.update('https://www.amazon.com/s?k=computer/' + str(id) + '/', htmlDoc)
+    t = price.update(web + str(id) + '/', htmlDoc)
     return render_template('priceout.html')
 
 #Testing what user is in session.
