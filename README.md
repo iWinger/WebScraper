@@ -27,6 +27,9 @@ https://www.amazon.com/s?k=computer/
 -> Picture in the static folder
 -> All are in **site-packages**
 
+Our test login for the flask app / website is:
+Username: Test123
+Password: Testing123
 
 
 
