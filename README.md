@@ -17,6 +17,10 @@ for Amazon products is giving too much strain on our server, thus causing it to 
 
 We really worked hard on this project, and we hope you enjoy this!
 
+Websites we scraped (either there was permission / we followed the robots.txt so we didn't break any rules):
+http://quotes.toscrape.com/
+https://www.amazon.com/s?k=computer/
+
 ####Extra
 -> The python files are in the scraper folder
 -> HTML files (with in-line CSS and in-line JS) are in templates
