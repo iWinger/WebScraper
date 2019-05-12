@@ -6,15 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37834109-a937-42bd-97c8-015eb86b90b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/price.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/priceout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/quotes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/quotesout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/price.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/price.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/q.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/q.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/templates/priceout.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/templates/priceout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/templates/quotesout.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/templates/quotesout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/bestPrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/scraper/bestPrice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/templates/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/templates/alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/web.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="102">
+              <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
               <folding>
                 <element signature="e#0#75#0" expanded="true" />
               </folding>
@@ -36,22 +32,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/price.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/bestPrice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="408">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/q.py">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/alert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="543">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,17 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/price.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
+            <state relative-caret-position="648">
               <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/quotesout.html">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -78,26 +77,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/priceout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/quotes.html">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/alert.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="407">
+              <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/signup.html">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/q.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state>
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,10 +150,13 @@
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/templates/quotesout.html" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/templates/home.html" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/templates/index.html" />
-        <option value="$PROJECT_DIR$/venv/Lib/site-packages/web.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/templates/price.html" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/scraper/q.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/scraper/price.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/templates/alert.html" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/scraper/alert.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/scraper/bestPrice.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/web.py" />
       </list>
     </option>
   </component>
@@ -193,6 +197,22 @@
               <item name="Lib" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebScraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebScraper" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebScraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebScraper" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,8 +222,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Lib/site-packages/scraper" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wingjun\PycharmProjects\WebScraper\venv\Lib\site-packages\scraper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,7 +309,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24240422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23976222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,34 +330,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/price.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/quotesout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/priceout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -367,17 +368,81 @@
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/q.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/alert (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="58" column="31" lean-forward="true" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/price.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="255">
+          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/bestPrice (1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" lean-forward="true" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/price.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/priceout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/bestPrice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/templates/alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scraper/alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
