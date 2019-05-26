@@ -1,12 +1,14 @@
 # WebScraper
 ##**Instructions**
-*Python version should be of the newer releases (such as 3.7.1/3.7.2/3.7.3)*
-*We tested it on Windows, and Python should be of 64-bit architecture.*
-*No requirements.txt is needed since the modules is already downloaded in the virtual environment (but must have Python)*
+*Must have Python and version should be of the relatively newer releases (such as 3.7.1/3.7.2/3.7.3)*
+*We tested it on Windows, and our Python was of 64-bit architecture.*
+
 
 ###How to Test
-Download the project, and go to ../WebScraper/venv/Lib/site-packages using Command Prompt
-Inside the site-packages directory, use the command **python web.py**
+Download the project, and go inside the folder where all the files are
+*Use cd to navigate through command prompt or git bash to the folder and use the following commands*
+Inside the directory, you need the modules from requirements.txt so run: **python -m pip install -r requirements.txt** 
+Then, use the command **python web.py**
 What this does is starts a Flask app and gives a link to **localhost**
 
 ###Why localhost?
